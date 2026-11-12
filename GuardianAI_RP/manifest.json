@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Guardian AI Resources",
+    "description": "Models and text for Guardian AI.",
+    "uuid": "b4f28c6e-4b5a-4ea7-9e65-f5dd3b8c62c4",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "Guardian AI resource data",
+      "type": "resources",
+      "uuid": "28e6f381-87e8-43d0-a1b0-72cf7bbf286d",
+      "version": [1, 0, 0]
+    }
+  ]
+}

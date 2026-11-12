@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Guardian AI Behavior Pack",
+    "description": "Adds a chatty guardian companion and an evil AI enemy.",
+    "uuid": "c9a3c9b0-1a67-4e16-b0f6-2f0b5b8e5e7d",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "description": "Guardian AI behavior data",
+      "type": "data",
+      "uuid": "8d7c4f40-7a5b-45b4-9c89-4bc2f8a2d0b1",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "Guardian AI game logic",
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "f4a84b32-0d38-4d64-b21a-9da82d5a4f66",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b4f28c6e-4b5a-4ea7-9e65-f5dd3b8c62c4",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}
